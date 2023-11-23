@@ -14,6 +14,7 @@ exports.checkBody = (req, res, next) => {
       status: 'fail',
       massage: 'Missing name or price',
     });
+    
   }
  next();
 };
